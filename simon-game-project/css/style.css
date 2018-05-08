@@ -1,0 +1,58 @@
+body{
+background-color: #2f4353;
+background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+background-repeat:no-repeat;
+}
+
+html{
+  height:100%;
+}
+
+.game{
+  height: 380px;
+  width: 370px;
+  background-color: silver;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding-top: 40px;
+  position:relative;
+  overflow:auto;
+}
+
+.buttons{
+  height:90px;
+  width: 140px;
+  border-radius: 40px;
+}
+
+.buttons-menu{
+  height: 50px;
+  width: 140px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.step-counter{
+  float: left;
+  font-family: 'Comfortaa', cursive;
+  font-size: 40px;
+  height: 80px;
+  width: 50px;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.counter-label{
+  font-family: 'Comfortaa', cursive;
+  font-size: 22px;
+  height: 60px;
+  width: 300px;
+  background-color: transparent;
+  margin-left: -125px;
+  padding-top: 20px
+}
+
+.title{
+  font-family: 'Comfortaa', cursive;
+}
